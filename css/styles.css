@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+
+/* components */
+@import "components/header.css";
+/* Screens */
+@import "screens/main-screen.css";
+
+body {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+.main-screen {
+  padding-left: 60px;
+}

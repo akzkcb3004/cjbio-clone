@@ -1,0 +1,19 @@
+.live-screen {
+  margin-top: 150px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.live-screen span {
+  display: block;
+  margin-bottom: 10px;
+}
+.live-header {
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.live-text {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.4);
+}
