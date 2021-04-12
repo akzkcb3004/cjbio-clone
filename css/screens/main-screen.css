@@ -1,6 +1,7 @@
 .live-screen {
   margin-top: 150px;
-  margin-left: 70px;
+  margin-left: 130px;
+  margin-bottom: 90px;
   display: flex;
   flex-direction: column;
 }
@@ -16,4 +17,47 @@
 .live-text {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.4);
+}
+
+.video-screen {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.video-screen__video {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: -50px;
+}
+.video-screen__video video {
+  width: 95%;
+  height: 100%;
+}
+.video-screen__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-bottom: 100px;
+  padding-top: 600px;
+}
+.video-screen__title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.video-screen__title span {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.video-screen__more {
+  border: 1px solid black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  width: 10%;
 }
