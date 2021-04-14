@@ -1,0 +1,16 @@
+.second-screen__header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 0px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.second-screen__title {
+  font-size: 45px;
+  font-weight: 600;
+}
+.second-screen__more span {
+  margin-left: 20px;
+  font-size: 13px;
+}

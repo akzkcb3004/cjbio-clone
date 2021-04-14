@@ -1,0 +1,48 @@
+.third-screen__header {
+  background-color: #9e9e9e;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 100px 160px 230px 160px;
+}
+.third-screen__title {
+  font-size: 45px;
+  font-weight: 600;
+}
+.third-screen__more span {
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+.products-component {
+  display: flex;
+  position: absolute;
+  top: -170px;
+  left: 80px;
+}
+.products-component__column {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+.products-component__img img {
+  width: 100%;
+  height: 265px;
+  margin-bottom: 30px;
+}
+.products-component__text span {
+  font-size: 25px;
+  font-weight: 600;
+}
+.products-component__text p {
+  margin-top: 15px;
+  font-size: 15px;
+  opacity: 0.5;
+  line-height: 20px;
+  padding-right: 30px;
+}
+.products-component__relative {
+  height: 400px;
+  position: relative;
+}

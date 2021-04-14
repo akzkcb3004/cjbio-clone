@@ -3,10 +3,14 @@
 
 /* components */
 @import "components/header.css";
+@import "components/item-component.css";
 /* Screens */
-@import "screens/main-screen.css";
+@import "screens/first-screen.css";
+@import "screens/second-screen.css";
+@import "screens/third-screen.css";
 
 body {
   color: black;
   font-family: "Open Sans", sans-serif;
+  width: 100%;
 }
