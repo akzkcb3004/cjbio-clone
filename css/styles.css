@@ -8,6 +8,7 @@
 @import "screens/first-screen.css";
 @import "screens/second-screen.css";
 @import "screens/third-screen.css";
+@import "screens/last-screen.css";
 
 body {
   color: black;
