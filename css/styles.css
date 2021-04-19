@@ -4,6 +4,7 @@
 /* components */
 @import "components/header.css";
 @import "components/item-component.css";
+@import "components/footer.css";
 /* Screens */
 @import "screens/first-screen.css";
 @import "screens/second-screen.css";

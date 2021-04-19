@@ -1,0 +1,29 @@
+.footer {
+}
+.footer-1 {
+  padding: 15px 75px;
+  font-size: 12px;
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.footer-1 span {
+  margin-right: 5px;
+}
+.footer-1 i {
+  color: gray;
+}
+.footer-2 {
+  padding: 30px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer-2__column:first-child span {
+  font-size: 15px;
+  margin-right: 10px;
+}
+.footer-2__column:last-child i {
+  font-size: 20px;
+  margin-left: 18px;
+}

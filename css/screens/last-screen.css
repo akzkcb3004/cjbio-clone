@@ -1,7 +1,7 @@
 .last-screen__body {
   padding: 100px 150px;
   color: white;
-  background-color: green;
+  background-image: url("../../Desktop/BG_1.jpg");
 }
 .last-screen__header {
   display: flex;
